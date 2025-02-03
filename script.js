@@ -20,7 +20,7 @@ document.getElementById("userForm").addEventListener("submit", async function(ev
     let baseId = "app37Y7f8LVjUMAmV";
     let tableName = "Table 4";
 
-    let url = `https://api.airtable.com/v0/${baseId}/${tableName}`;
+    let url = `https://api.airtable.com/v0/${baseId}/${encodeURIComponent(tableName)}`;
     
     let response = await fetch(url, {
         method: "POST",
