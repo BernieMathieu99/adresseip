@@ -35,7 +35,7 @@ document.getElementById("userForm").addEventListener("submit", async function(ev
 
     let ip = userIPField.value;
 
-    let airtableApiKey = "patgpuqndUxWUI0m7"; // 🔥 Vérifie que c'est un token API Airtable valide !
+    let airtableApiKey = "Bearer keypatgpuqndUxWUI0m7"; // 🔥 Vérifie que c'est un token API Airtable valide !
     let baseId = "app37Y7f8LVjUMAmV"; // 🔍 Vérifie que c'est bien l'ID de ta base
     let tableName = "Table 4";
 
